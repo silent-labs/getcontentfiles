@@ -1,0 +1,16 @@
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\bin\Debug\net8.0-windows\ObtenerContenidosArchivos.exe
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\bin\Debug\net8.0-windows\ObtenerContenidosArchivos.deps.json
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\bin\Debug\net8.0-windows\ObtenerContenidosArchivos.runtimeconfig.json
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\bin\Debug\net8.0-windows\ObtenerContenidosArchivos.dll
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\bin\Debug\net8.0-windows\ObtenerContenidosArchivos.pdb
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.Form1.resources
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.AssemblyInfo.cs
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.dll
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\refint\ObtenerContenidosArchivos.dll
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.pdb
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ObtenerContenidosArchivos.genruntimeconfig.cache
+C:\Users\pc\source\repos\ObtenerContenidosArchivos\ObtenerContenidosArchivos\obj\Debug\net8.0-windows\ref\ObtenerContenidosArchivos.dll
