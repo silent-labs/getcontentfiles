@@ -1,70 +1,70 @@
-# File Listing Tool 🗂️
+# Herramienta de Listado de Archivos 🗂️
 
-This project is a Windows Forms application written in PowerShell. It allows users to select a directory, apply filters to folders and file types, search for specific files, and generate an output file containing the paths and contents of the selected files. This tool is designed to help developers streamline their workflow by easily passing code files to ChatGPT for smoother and more efficient new chats.
+Este proyecto es una aplicación de Windows Forms escrita en PowerShell. Permite a los usuarios seleccionar un directorio, aplicar filtros a carpetas y tipos de archivos, buscar archivos específicos y generar un archivo de salida que contiene las rutas y contenidos de los archivos seleccionados. Esta herramienta está diseñada para ayudar a los desarrolladores a optimizar su flujo de trabajo pasando fácilmente archivos de código a ChatGPT para obtener nuevos chats más fluidos y eficientes.
 
-## Features 🌟
+## Características 🌟
 
-- Select a directory to list files.
-- Filter folders and file types.
-- Search for specific files by name.
-- Select the output file location.
-- Generate an output file with the paths and contents of selected files.
-- Progress bar showing the generation progress of the output file.
+- Selección de un directorio para listar archivos.
+- Filtrado de carpetas y tipos de archivos.
+- Búsqueda de archivos por nombre.
+- Selección de la ubicación del archivo de salida.
+- Generación de un archivo de salida con las rutas y contenidos de los archivos seleccionados.
+- Barra de progreso que muestra el avance de la generación del archivo de salida.
 
-## User Interface Components 🖥️
+## Componentes de la Interfaz de Usuario 🖥️
 
-- **Main Window**: A main window containing all UI elements.
-- **Select Directory Button**: Allows the user to select a directory to list files.
-- **Directory Label**: Displays the selected directory.
-- **File List**: A checklist displaying the files in the selected directory.
-- **Folder Filters Label and TextBox**: Allows the user to enter filters to exclude specific folders.
-- **File Search Label and TextBox**: Allows the user to search for specific files by name.
-- **File Type Filters Label and TextBox**: Allows the user to enter filters to include only certain file types.
-- **Select Output Location Button**: Allows the user to select the output file location.
-- **Output Location Label**: Displays the selected output file location.
-- **Progress Bar**: Shows the progress of the output file generation.
-- **Generate Output Button**: Generates the output file with the paths and contents of the selected files.
+- **Ventana Principal**: Una ventana principal que contiene todos los elementos de la interfaz de usuario.
+- **Botón Seleccionar Directorio**: Permite al usuario seleccionar un directorio para listar archivos.
+- **Etiqueta de Directorio**: Muestra el directorio seleccionado.
+- **Lista de Archivos**: Una lista con casillas de verificación que muestra los archivos del directorio seleccionado.
+- **Etiqueta y Cuadro de Texto de Filtros de Carpetas**: Permite al usuario ingresar filtros para excluir carpetas específicas.
+- **Etiqueta y Cuadro de Texto de Búsqueda de Archivos**: Permite al usuario buscar archivos específicos por nombre.
+- **Etiqueta y Cuadro de Texto de Filtros de Tipo de Archivo**: Permite al usuario ingresar filtros para incluir solo ciertos tipos de archivos.
+- **Botón Seleccionar Ubicación de Output**: Permite al usuario seleccionar la ubicación del archivo de salida.
+- **Etiqueta de Ubicación de Output**: Muestra la ubicación seleccionada del archivo de salida.
+- **Barra de Progreso**: Muestra el progreso de la generación del archivo de salida.
+- **Botón Generar Output**: Genera el archivo de salida con las rutas y contenidos de los archivos seleccionados.
 
-## Functionality 🚀
+## Funcionalidad 🚀
 
-### Directory Selection
+### Selección de Directorio
 
-When the user clicks the **Select Directory** button, a folder selection dialog opens. If the user selects a directory, the directory label displays the selected path, and the file list updates with the files from the directory, excluding folders and file types specified in the filters.
+Cuando el usuario hace clic en el botón **Seleccionar Directorio**, se abre un cuadro de diálogo de selección de carpetas. Si el usuario selecciona un directorio, la etiqueta de directorio muestra la ruta seleccionada y la lista de archivos se actualiza con los archivos del directorio, excluyendo las carpetas y tipos de archivos especificados en los filtros.
 
-### File Search
+### Búsqueda de Archivos
 
-The search textbox allows the user to search for files by name. As the user types in the search textbox, the file list updates to show only the files that match the search text.
+El cuadro de texto de búsqueda permite al usuario buscar archivos por nombre. A medida que el usuario escribe en el cuadro de texto, la lista de archivos se actualiza para mostrar solo los archivos que coinciden con el texto de búsqueda.
 
-### Folder and File Type Filters
+### Filtros de Carpetas y Tipos de Archivo
 
-The folder filters textbox allows the user to enter folder names to exclude from the file list. The file type filters textbox allows the user to enter file extensions (e.g., `.txt`, `.jpg`) to include in the file list.
+El cuadro de texto de filtros de carpetas permite al usuario ingresar nombres de carpetas que se deben excluir de la lista de archivos. El cuadro de texto de filtros de tipo de archivo permite al usuario ingresar extensiones de archivo (por ejemplo, `.txt`, `.jpg`) que se deben incluir en la lista de archivos.
 
-### Output Location Selection
+### Selección de Ubicación de Output
 
-The **Select Output Location** button opens a save file dialog allowing the user to select the location and name of the output file. The output location label displays the selected path.
+El botón **Seleccionar Ubicación de Output** abre un cuadro de diálogo de guardado de archivos que permite al usuario seleccionar la ubicación y el nombre del archivo de salida. La etiqueta de ubicación de output muestra la ruta seleccionada.
 
-### Output File Generation
+### Generación del Archivo de Salida
 
-The **Generate Output** button generates an output file at the selected location. The output file contains the path and content of each selected file in the list. The progress bar shows the progress of the output file generation.
+El botón **Generar Output** genera un archivo de salida en la ubicación seleccionada. El archivo de salida contiene la ruta y el contenido de cada archivo seleccionado en la lista. La barra de progreso muestra el avance de la generación del archivo de salida.
 
-## Usage 📋
+## Uso 📋
 
-1. Run the script in PowerShell.
-2. Select a directory by clicking the **Select Directory** button.
-3. Optionally, enter folder and file type filters in the respective textboxes.
-4. Search for specific files using the search textbox.
-5. Select the output file location by clicking the **Select Output Location** button.
-6. Generate the output file by clicking the **Generate Output** button.
+1. Ejecuta el script en PowerShell.
+2. Selecciona un directorio haciendo clic en el botón **Seleccionar Directorio**.
+3. Opcionalmente, ingresa filtros de carpetas y tipos de archivo en los cuadros de texto correspondientes.
+4. Busca archivos específicos utilizando el cuadro de texto de búsqueda.
+5. Selecciona la ubicación del archivo de salida haciendo clic en el botón **Seleccionar Ubicación de Output**.
+6. Genera el archivo de salida haciendo clic en el botón **Generar Output**.
 
-## Requirements ⚙️
+## Requisitos ⚙️
 
 - PowerShell
-- .NET Framework (to use Windows Forms classes)
+- .NET Framework (para utilizar las clases de Windows Forms)
 
-## Notes 📝
+## Notas 📝
 
-- The script uses the `System.Windows.Forms` class to create the user interface.
-- The generated output file includes both the path and the content of each selected file, separated by double newlines.
-- This tool is especially useful for developers who want to seamlessly pass their code files to ChatGPT, enhancing their workflow and enabling smoother new chat sessions.
+- El script utiliza la clase `System.Windows.Forms` para crear la interfaz de usuario.
+- El archivo de salida generado incluye tanto la ruta como el contenido de cada archivo seleccionado, separados por doble línea nueva.
+- Esta herramienta es especialmente útil para los desarrolladores que quieren pasar sus archivos de código a ChatGPT de manera fluida, mejorando su flujo de trabajo y permitiendo nuevas sesiones de chat más eficientes.
 
-Enjoy a streamlined workflow with your code files and ChatGPT! 💻🤖
+¡Disfruta de un flujo de trabajo optimizado con tus archivos de código y ChatGPT! 💻🤖
